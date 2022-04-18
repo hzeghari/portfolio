@@ -6,12 +6,14 @@ import About from './About';
 function Layout({ children }) {
   return (
     <div className='flex flex-col min-h-full'>
-      <Header />
-      <Hero />
-      <About />
-      <main className='px-8 flex-1 flex flex-col'>{children}</main>
+      <main className='px-8 flex-1 flex flex-col'>
+        <Header />
+        <Hero />
+        <About />
+        <Footer />
+      </main>
       {/* <main className='px-8 flex-1 flex flex-col'>{children}</main> */}
-      <Footer />
+      {/* <main className='px-8 flex-1 flex flex-col'>{children}</main> */}
     </div>
   );
 }

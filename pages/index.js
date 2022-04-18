@@ -38,7 +38,7 @@ function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <motion.h1
+      {/* <motion.h1
         initial='hidden'
         animate='show'
         variants={sentence}
@@ -62,7 +62,7 @@ function Home() {
         >
           Developer
         </motion.span>
-      </motion.h1>
+      </motion.h1> */}
     </>
   );
 }
