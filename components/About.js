@@ -34,7 +34,7 @@ export default function About() {
               style of interesting and significant projects on a daily basis.
             </p>
             <p className='mx-0 mt-0 mb-4 text-justify'>
-              Here are a few technologies I&apos;ve been working with recently:
+              Here are a few technologies I&apos;ve been working with recently :
             </p>
           </div>
 
